@@ -1,0 +1,201 @@
+*,
+*::after
+*::before {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+}
+
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #17062A;
+    font-weight: 700;
+    color: #FFE53D;
+}
+
+.calculator {
+    width: 540px;
+    height: 480px;
+}
+
+.calculator h3 {
+font-size: 32px;
+letter-spacing: -0.533px;
+}
+
+.calc-top {
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-right {
+    display: flex;
+    align-items: end;
+    gap: 26px;
+}
+
+.top-right span {
+font-size: 12px;
+letter-spacing: 1px;
+}
+.theme-switcher {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.theme-numbers {
+    display: flex;
+    gap: 11px;
+font-size: 12px;
+}
+
+.theme-numbers span {
+    font-size: 16px;
+}
+.theme-circle {
+    width: 71px;
+    height: 26px;
+    border-radius: 13px;
+    background: #1E0936;
+    padding: 5px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+.theme-circle div {
+    border-radius: 50%;
+    background: #00DED0;
+    width: 16px;
+height: 16px;
+cursor: pointer;
+}
+
+.theme-circle div:hover {
+    border-radius: 50%;
+    background: #93FFF8;
+    width: 16px;
+    height: 16px;
+}
+
+/* HEADER-END */
+
+.calc-input {
+border-radius: 10px;
+background: #1E0936;
+    text-align: right;
+    font-size: 56px;
+    letter-spacing: -0.933px;
+    padding: 40px 32px 36px;
+    margin-bottom: 24px;
+}
+
+/* end of calc-input */
+
+/* .calc-body */
+.calc-body {
+    border-radius: 10px;
+background: #1E0936;
+padding: 32px;
+}
+
+.calc-btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.calc-btns :hover {
+    border-radius: 10px;
+    background: #6C34AC;
+    box-shadow: 0px -4px 0px 0px #881C9E inset;
+}
+
+.calc-btn {
+    font-family: League Spartan;
+    border-radius: 10px;
+    color: #FFE53D;
+text-align: center;
+font-size: 40px;
+letter-spacing: -0.667px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: none;
+margin-bottom: 24px;
+}
+
+.btn-number {
+    width: 101px;
+    height: 64px;
+    color: #FFE53D;
+    border-radius: 10px;
+background: #331C4D;
+box-shadow: 0px -4px 0px 0px #881C9E inset;
+cursor: pointer;
+}
+
+.del {
+    border-radius: 10px;
+background: #56077C;
+box-shadow: 0px -4px 0px 0px #BE15F4 inset;
+cursor: pointer;
+}
+
+.del :hover {
+    border-radius: 10px;
+background: #8631AF;
+box-shadow: 0px -4px 0px 0px #BE15F4 inset;
+}
+
+.calc-actions {
+    display: flex;
+    gap: 24px;
+}
+
+.calc-actions button {
+    font-family: League Spartan;
+    width: 50%;
+    color: #FFF;
+text-align: center;
+font-size: 28px;
+letter-spacing: -0.467px;
+height: 64px;
+}
+
+.reset {
+background: #56077C;
+box-shadow: 0px -4px 0px 0px #BE15F4 inset;
+cursor: pointer;
+}
+
+.reset:hover {
+    border-radius: 10px;
+background: #8631AF;
+box-shadow: 0px -4px 0px 0px #BE15F4 inset;
+}
+
+.equal {
+background: #00DED0;
+box-shadow: 0px -4px 0px 0px #6CF9F1 inset;
+cursor: pointer;
+}
+
+.equal:hover {
+    border-radius: 10px;
+background: #93FFF8;
+box-shadow: 0px -4px 0px 0px #6CF9F1 inset;
+}
